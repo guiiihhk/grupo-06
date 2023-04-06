@@ -1,9 +1,9 @@
 header {
     background-color: #3C93BD;
     color: #DFB63F;
-
+}
 .cabecalho-imagem{
-    width: 200%;
+    width: 10%;
     background-color: #3C93BD;
     color: white;
     display: flex;
@@ -11,4 +11,30 @@ header {
     align-items: center;
     padding: 24px 0;
 }
+
+.flex-container {
+
+    display: flex;
+    
+    justify-content: space-around; 
+    align-items: center;    
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+.pepe {
+    background-color: #3C93BD;
+    color: #DFB63F;
 }
+  
